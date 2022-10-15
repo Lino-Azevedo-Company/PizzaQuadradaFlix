@@ -1,0 +1,11 @@
+server:
+  port: 9990
+
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@//localhost:1521/xe
+    username: p2flix
+    password: p2flix
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle10gDialect
